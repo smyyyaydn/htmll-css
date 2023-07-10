@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deneme</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            height: 65px;
+            text-align: right;
+        }
+        .navbar li{
+            display: inline;
+            margin-right: 60px;
+
+        }
+        .navbar a{
+            text-decoration: none;
+            color:#fff
+        }
+        .navbar a:hover{
+            color: gray;
+        }
+        .sidebar {
+            position: fixed;
+            width: 110px;
+            height: 100%;
+            background-color:gray;
+            padding: 30px;
+            align-items: center;
+    }
+        .sidebar ul {
+         list-style-type: none;
+         padding: 0;
+         margin: 40;
+    }
+        .sidebar li {
+         margin-bottom: 60px; 
+    }
+        .sidebar li a {
+        text-decoration: none;
+        color: white;
+    }
+       .sidebar li a:hover {
+        color: black;
+    }
+        .header {
+            background-color: white;
+            padding:250px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">Hizmetler</a></li>
+            <li><a href="#">İletişim</a></li>
+          </ul>
+        
+    </div>
+    <div class="sidebar">
+        <ul>
+          <li><a href="#">Anasayfa</a></li>
+          <li><a href="#">Hakkımızda</a></li>
+          <li><a href="#">Hizmetler</a></li>
+          <li><a href="#">İletişim</a></li>
+        </ul>
+      </div>
+    
+    <div class="header">
+      <H1>DENEME</H1>
+    </div>
+    
+    <div class="footer">
+        <p> 2023 - Sümeyye</p>
+    </div>
+</body>
+</html>
